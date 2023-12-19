@@ -1,0 +1,119 @@
+/* Base styles */
+body {
+  font-family: Montserrat, sans-serif;
+}
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  color: currentColor;
+  font-family: inherit;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Common styles */
+.container {
+  width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 365px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+.logo-italic {
+  font-style: italic;
+}
+
+.logo-icon {
+}
+
+.header-menu {
+  margin-right: 90px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-item {
+}
+
+.header-link {
+  display: block;
+  padding: 32px 0;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.header-link:focus,
+.header-link:hover {
+  color: #fd9222;
+}
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-socials-item {
+}
+
+.header-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+}
+.header-socials-link:hover,
+.header-socials-link:focus {
+  border-color: #fd9222;
+  color: #fd9222;
+}
+.header-socials-icon {
+  fill: currentColor;
+}
